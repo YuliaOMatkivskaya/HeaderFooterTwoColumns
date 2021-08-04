@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header, footer{
+    height: 10vh;
+
+    background-color: black;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.flex-container {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-flow: row nowrap;
+
+    background:cornsilk;
+  }
+  
+  .first {
+    flex-grow: 1;
+    
+    border: 2px solid darkgoldenrod;
+    margin: 2px;
+    padding: 2px;
+    
+  }
+  
+  .second {
+    flex-grow: 9;
+    
+    border: 2px solid darkgoldenrod;
+    margin: 2px;
+    padding: 2px;
+    
+  }
+
+
